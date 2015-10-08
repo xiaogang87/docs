@@ -1,13 +1,13 @@
-# Authentication
+# 认证
 
-- [Introduction](#introduction)
-- [Authentication Quickstart](#authentication-quickstart)
-    - [Routing](#included-routing)
-    - [Views](#included-views)
-    - [Authenticating](#included-authenticating)
-    - [Retrieving The Authenticated User](#retrieving-the-authenticated-user)
-    - [Protecting Routes](#protecting-routes)
-    - [Authentication Throttling](#authentication-throttling)
+- [介绍](#introduction)
+- [认证快速开始](#authentication-quickstart)
+    - [路由](#included-routing)
+    - [视图](#included-views)
+    - [认证](#included-authenticating)
+    - [获取认证用户](#retrieving-the-authenticated-user)
+    - [保护路由](#protecting-routes)
+    - [认证保护](#authentication-throttling)
 - [Manually Authenticating Users](#authenticating-users)
     - [Remembering Users](#remembering-users)
     - [Other Authentication Methods](#other-authentication-methods)
@@ -22,9 +22,9 @@
 - [Adding Custom Authentication Drivers](#adding-custom-authentication-drivers)
 
 <a name="introduction"></a>
-## Introduction
+## 介绍
 
-Laravel makes implementing authentication very simple. In fact, almost everything is configured for you out of the box. The authentication configuration file is located at `config/auth.php`, which contains several well documented options for tweaking the behavior of the authentication services.
+Laravel使实现认证变得非常简单。实际上，几乎所有的东西都是配置好的。认证配置文件在`config/auth.php`，里面有几个有详细说明的选项用来调整认证服务中的一些行为。
 
 ### Database Considerations
 
